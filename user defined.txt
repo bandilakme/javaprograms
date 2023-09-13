@@ -1,0 +1,19 @@
+//class that uses above my exception
+class test throws3
+{
+public static void main(string args[])
+{
+try
+{
+//throw an object of user defined exception
+throw new user defined fined exception("this is user defined exception");
+}
+catch(user defined exception ude)
+{
+system.out.println("caught the exception");
+//print the message from my exception object
+system.out.println(ude.get message());
+}
+}
+}
+

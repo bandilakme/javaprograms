@@ -1,0 +1,4 @@
+INDEX VERSION 1.132+C:\Users\laksh\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\hellospring\hello\Demoworkspace\string buffer\.metadata\.plugins\org.eclipse.jdt.core
+1077215203.index
+1449480119.index
+1865797976.index

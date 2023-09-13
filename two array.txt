@@ -1,0 +1,12 @@
+package.com.class assignments {
+public class sum of array{
+public static void main(string[]args){
+//Initialize array
+int[]arr=new int[]{1,2,3,,4,5};
+int sum=0;
+for(int i=0;i<arr.length;i++)}
+sum=sum+arr[i];
+}
+system.out.print\n("sum of all the elements");
+}
+}

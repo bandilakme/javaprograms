@@ -1,0 +1,18 @@
+class addition{
+public void adding (int a,int b)
+{
+system.out.print \n((a+b));ic 
+}
+public void adding(float a,float b)
+{
+system.out.print\n("a+b"+(a+b));
+}
+class main class
+{
+public static void main(string args)
+{
+addition aa=new addition();
+aa.adding(1,2);
+aa.adding(1,2F,3.1F);
+}
+}

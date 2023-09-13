@@ -1,0 +1,11 @@
+class call me{
+void call(string msg){
+system.out.print("["+msg);
+try{
+Thread.sleep(2000);
+}catch(Interrupted Exception e){
+system.out.print\n("Interrupted");
+}
+system.out.print/n("]");
+}
+}

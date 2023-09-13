@@ -1,0 +1,25 @@
+import java.awt.*;
+import java.awt.event.*;
+class text field example extends frame implements action listener{
+Text field tf1,tf2,tf3;
+Button b1,b2,b3;
+text field example(){
+tf1=new text field();
+tf1=set bounds (50,50,150,20);
+tf2=new text field();
+tf2=set bounds(50.100,150,20);
+tf3=new text field();1.
+tf3=new text field(50,150,50,120);
+tf3=set editable(false);
+b1=new button("+");
+b1.set bounds(50.200.,50,50);
+b2=new button("-");
+b2.set bounds(120,200,50,50);
+b3=new button ("clear");
+b3.set bounds(190,200,50,50);
+b1.add action listener(this);
+b2.add action listener(this);
+b3.add action listener(this);
+
+
+

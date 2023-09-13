@@ -1,0 +1,10 @@
+\\class represents user defined exception
+{
+class user defined exception extends exception
+{
+public user defined exception(string str)
+{
+//calling constructor of parent exception
+super(str);
+}
+}

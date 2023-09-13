@@ -1,0 +1,12 @@
+class sample 
+{
+public static void main(string[]args)
+{
+string Buffer S1=new string Buffer("Hindustan");
+string Buffer S2=new string Buffer("Hindustan");
+string Buffer S3=new string Buffer("Hindustan");
+system.out.printIn(S1.reverse());
+system.out.printIn(S2.delete(2,5));
+system.out.printIn(S3.insert(2,"vizag"));
+}
+}

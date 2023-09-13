@@ -1,0 +1,12 @@
+//File Name:caller.java
+class caller implements Runnable{
+string msg;
+call me target;
+thread t;
+public caller(call me targ,string s){
+target=targ;
+msg=s;
+t=new Thread(this);
+t.start();
+}
+}

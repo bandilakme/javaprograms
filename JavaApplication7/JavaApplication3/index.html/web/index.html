@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>TODO write content</div>
+    </body>
+</html>
+<body
+    <form action="search" method="get name"="frm">
+        Enter your Rollno:<input type="text name"="roll"/><br/>
+        <input tyoe=""submit"value="search"/)
+               <form>
+                   <html>
+                       <body>
+                       
+                  import java.io.*;
+                     import java.sql.*;
+                       impirt javax.servlet.servlet Exception;
+                    import javax.servlet.http.*;
+                    public class search extends Httpsrervlet{
+                    public void doget(Https R request,Http $response Io exceptilon{
+                    response.set content type("text/html");
+                    print writer out=response.get writer();
+                    string rollno=request.get parameter("roll");
+                    int roll=Integer .parseInt(roll no);
+                    try{
+                    class for name("oracle .jdbc.driver.oracleDriver");
+                    connection con=Driver Manager.get connection("jdbc:oracle:thin;@local host:1521;xe",map","map");
+                    prepared statementps+con.prepare statement("select from result where roll no=?");
+                    ps.set int(1,roll);
+                    out print ("<table width =50%border=2");
+                                       out.print("<caption>Result:<\caption>");
+                      Result setmeta
+                   

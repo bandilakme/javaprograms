@@ -1,0 +1,19 @@
+class addition
+{
+void sum(int a,int b)
+{
+int c=a+b;
+system.out.print\n("Addition of two numbers"+c);
+}
+void sum(int a,int b,int c)
+{
+int c=a+b+c;
+system.out.print\n("Addition of three numbers:"+c);
+}
+public static void main(string[]args)
+{
+Addition obj=new addition ();
+obj.sum(30,90)
+obj.sum(45,80,22);
+}
+}

@@ -1,0 +1,21 @@
+class defaulations
+{
+int a,b;
+default cons()
+{
+a=10;b=20;
+}
+publc void display{
+system.out.print/n("A is" +a+B" is "+b);
+}
+}
+class main class
+{
+public static void main(string args[])
+{
+default cons d=new default cons():
+d.display();
+default cons d1=new default cons();
+d1.display();
+}
+}

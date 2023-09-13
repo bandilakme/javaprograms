@@ -1,0 +1,12 @@
+Package com.class Assignments;
+import java.io.*;
+public static void main(string[]args)
+{
+int a[]={1,2,3,4,5}
+for(int i=0;i<a.length;i++)
+string simplestring ="length;
+system.out.print\n(a[i]);
+int[]simple array={1,2,3,4,5};
+system.out.print\n(""+arr[i]);
+}
+}

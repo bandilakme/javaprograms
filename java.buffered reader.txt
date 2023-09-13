@@ -1,0 +1,25 @@
+import java.io.FilReader;
+import java.io.BufferedReader;
+{
+public static vpod main(string[]args)throws Exception
+{
+BufferedReader br=new Buffered Reader(new BufferedReader(new FileReader("g:\\team\\.java");
+string line;
+int bc=0,nbc=0;
+while(line=br.readLine()!=null)
+{
+//if(line.length()==0)
+if(line.equals (""))
+{
+bc++;
+continue;
+}
+nbc++;
+system.out.print\n(line);
+}
+system.out.print\n();
+system.out.print\n("No of blank lines:"+bc);
+system.out.print\n("No of non blank lines:"+nbc);
+br.close();
+}
+}

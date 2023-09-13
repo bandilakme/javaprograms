@@ -1,0 +1,20 @@
+class Q{
+int n;
+boolean value set=flase;
+synchronized int get(){
+if(!value set)
+try{
+wait();
+}catch(Interrupted Exceptione){
+system.out.printIn("Interrupted Exception caught");
+}
+system.out.print/n("Got:"+n);
+value set=false;
+notify();
+return n;
+}
+synchronized void put(int n){
+if(value set)
+try{
+wait();
+}catch(Interrupted Exception e){

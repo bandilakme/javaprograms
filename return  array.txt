@@ -1,0 +1,13 @@
+Class main{
+Public static void main(string args[]){
+static int add three(int,input){
+return input=3;
+}
+public static void main(string[]args){
+int b=3;
+system.out.print\n(b);
+int c=add three(b);
+system.out.print\n(b);
+system.out.print\n(c);
+}
+}

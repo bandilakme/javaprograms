@@ -1,0 +1,13 @@
+Package com.class Assignments;
+import java .io.*;
+public class ArrayUser Input{
+public static void main(srting[]args)}
+scanner scan=new scanner(system.in);
+system.out.print\n("what are your 3 fav colors");
+string[] colors=new string(3);
+colors[0]=scan.next();
+colors[1]=scan next();
+colors[1]=scan next();
+colors[2]=scan next();
+}
+}

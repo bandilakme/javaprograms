@@ -1,0 +1,26 @@
+import java.Io Exception;
+class TryThred extends thread{
+public Try thread(string first name,string second name,long,delay){
+this.first name=first Name;
+this.second name=second name;
+a while=delay;
+}
+public void run(){
+try{
+while(true){
+system.out.print(first name);
+sleep(a while);
+system.out.println(second name+" n);
+}
+}catch(Interrupted Exceptione){
+system.out.println(firstName+second name+e);
+}
+}
+private string first name;
+private string second name;
+}
+class main class{
+public static void main(string[]args{
+Thread first =new TryThread("A,"a","200L);
+thread second=new Trythread("B","b",300L);
+thread third=new

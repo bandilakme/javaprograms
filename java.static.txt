@@ -1,0 +1,18 @@
+class Book
+{
+
+	public static string title;
+	public static string title author;
+
+}
+class new class
+{
+	public static void main(string args[])
+{
+	Book.title="java";
+	Book.author="james gosling";
+	
+	system.out.print\n("Title is "+Book.title);
+	system.out.print\n(""Author is +Book.author);
+}
+}	

@@ -1,0 +1,13 @@
+import java.rmi.Naming;
+public class Hello server
+{
+public static void main(string[]args)
+{
+try{
+Naming.rebind("Hello",new Hello("Hello,welcome");
+system.out.print\n("sevver is connected and ready for operation");
+}
+catch(Exception e){
+system.out.print\n("server not connected:"+e);
+}
+}

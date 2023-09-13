@@ -1,0 +1,18 @@
+abstract class Employee
+{
+public abstract void compute pay();
+}
+class mian class extends Employee
+{
+public void compute pay()
+{
+system.out.print\n("compute pay");
+}}
+class new class
+{
+public static void main(string args[])
+{
+main class M=new main class();
+m.compute pay();
+}
+}

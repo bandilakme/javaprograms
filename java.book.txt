@@ -1,0 +1,23 @@
+class Book
+{
+	int static price;
+	int static qty;
+	static void create Book()
+{
+	Book.price =100;
+	Book.qty=10;
+}
+static void show Book()
+{
+system.out.print\n("price is "+Book.price);
+system.out.print\n("qty is "+Book.qty);
+}
+}
+class new class
+{
+	public static void main(string args[])
+{
+	Book.create Book();
+	Book .show Book();
+}
+}	
